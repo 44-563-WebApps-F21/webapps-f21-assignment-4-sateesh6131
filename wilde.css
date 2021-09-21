@@ -1,0 +1,86 @@
+.speech{
+ 
+    font-family: Arial, Helvetica, sans-serif;font-size: 20px;
+color:gray;
+}
+ 
+.stage-direction{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:burlywood;
+}
+.stage-direction:hover{
+    background-color: crimson;
+}
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    color:darkcyan;
+}
+.name:hover{
+    color: darkolivegreen;
+   box-shadow: 8px 8px 8px 5px grey;
+   border: 6px double rebeccapurple;
+}
+ 
+.LADYBASILDON{
+    color:coral;
+}
+.MRS_MARCHMONT{
+    color:crimson
+}
+table,th,td{
+    border: 2px dashed gray;   
+}
+
+
+ 
+table{
+    
+    overflow: auto;
+    width: 90%;
+   border-collapse: collapse; 
+   height: 80px;
+}
+ 
+th{
+    background-color:rgb(250, 8, 48);
+    color: lavender;
+}
+td{
+    padding: 10px;
+    text-align: left;
+    
+}
+th{
+    padding: 13px;
+    text-align: center;
+}
+tr:hover{
+background-color:rgba(207, 207, 207, 0.39);
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+ 
+ul.navbar-horizontal 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li 
+{
+    float:left; /* line up horizontally */
+    color:#000;
+    background-color:purple
+}
+ul.navbar-horizontal a 
+{
+    color:yellow;
+    display:block;
+    padding:8px;
+}ul.navbar-horizontal a:hover
+ { 
+      background-color: #555;
+      color:white;
+    }
