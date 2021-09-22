@@ -8,6 +8,7 @@ color:gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color:burlywood;
+    background-color:lightgreen;
 }
 .stage-direction:hover{
     background-color: crimson;
@@ -15,6 +16,7 @@ color:gray;
 .name{
     font-family: 'Courier New', Courier, monospace;
     color:darkcyan;
+    font-size:16px;
 }
 .name:hover{
     color: darkolivegreen;
@@ -60,6 +62,10 @@ background-color:rgba(207, 207, 207, 0.39);
 }
 tr:nth-child(even){
     background-color: gray;
+
+}
+.name:hover{
+    text-shadow: 2px 4px 8px tomato;
 }
  
 ul {
