@@ -22,11 +22,11 @@ color:gray;
    border: 6px double rebeccapurple;
 }
  
-.LADYBASILDON{
+.LORDGORING{
     color:coral;
 }
-.MRS_MARCHMONT{
-    color:crimson
+.PHIPPS{
+    color:crimson;
 }
 table,th,td{
     border: 2px dashed gray;   
@@ -62,25 +62,27 @@ tr:nth-child(even){
     background-color: gray;
 }
  
-ul.navbar-horizontal 
-{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-ul.navbar-horizontal li 
-{
-    float:left; /* line up horizontally */
-    color:#000;
-    background-color:purple
-}
-ul.navbar-horizontal a 
-{
-    color:yellow;
-    display:block;
-    padding:8px;
-}ul.navbar-horizontal a:hover
- { 
-      background-color: #555;
-      color:white;
-    }
+    overflow: hidden;
+    background-color: lightgreen
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color:blue
+  }
